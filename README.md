@@ -9,14 +9,14 @@
 How to run the file
 python h2oinstaller.py --cmd install
 
-Note: cmd will take the params
-      install : install the latest h2o3.
-      run: runs the H2o3
-      uninstall: uninstall the installed h2o3
-      upgrade: upgrade to the latest h2o3 from previous version
-      status: shows the h2o status
+Note: cmd will take the params <br/>
+      install : install the latest h2o3.<br/>
+      run: runs the H2o3<br/>
+      uninstall: uninstall the installed h2o3<br/>
+      upgrade: upgrade to the latest h2o3 from previous version<br/>
+      status: shows the h2o status<br/>
 
-Ex:
+Ex:<br/>
 ubuntu@ip-10-100-1-237:/tmp/h2opython$ python h2oinstaller.py
 usage: h2oinstaller.py [-h] --cmd {install,uninstall,upgrade,status,run}
 h2oinstaller.py: error: argument --cmd is required
