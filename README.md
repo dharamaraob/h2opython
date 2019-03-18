@@ -55,31 +55,31 @@ H2o session is running. Press Ctrl + Z to run the H2o process in background.<br/
 [1]+  Stopped                 python h2oinstaller.py --cmd install<br/>
 <br/>
 Note: H2o process is running in background. We need to kill it manually or it will be running till next boot.<br/>
-Ex :
-ubuntu@ip-10-100-1-237:/tmp/h2opython$ python3 h2oinstaller.py --cmd status
-h2o status
-Name: h2o
-Version: 3.22.1.6
-Summary: H2O, Fast Scalable Machine Learning, for python
-Home-page: https://github.com/h2oai/h2o-3.git
-Author: H2O.ai
-Author-email: support@h2o.ai
-License: Apache v2
-Location: /home/ubuntu/.local/lib/python2.7/site-packages
-Requires: future, tabulate, requests, colorama
-ubuntu@ip-10-100-1-237:/tmp/h2opython$
+Ex : <br/>
+ubuntu@ip-10-100-1-237:/tmp/h2opython$ python3 h2oinstaller.py --cmd status<br/>
+h2o status<br/>
+Name: h2o<br/>
+Version: 3.22.1.6<br/>
+Summary: H2O, Fast Scalable Machine Learning, for python<br/>
+Home-page: https://github.com/h2oai/h2o-3.git<br/>
+Author: H2O.ai<br/>
+Author-email: support@h2o.ai<br/>
+License: Apache v2<br/>
+Location: /home/ubuntu/.local/lib/python2.7/site-packages<br/>
+Requires: future, tabulate, requests, colorama<br/>
+ubuntu@ip-10-100-1-237:/tmp/h2opython$<br/>
 
 
-Ex:
-ubuntu@ip-10-100-1-237:/tmp/h2opython$ python3 h2oinstaller.py --cmd upgrade
-h2o upgrade
-Uninstalling h2o-3.22.1.6:
-  Successfully uninstalled h2o-3.22.1.6
-h2o uninstall completed
-h2o install
+Ex:<br/>
+ubuntu@ip-10-100-1-237:/tmp/h2opython$ python3 h2oinstaller.py --cmd upgrade<br/>
+h2o upgrade<br/>
+Uninstalling h2o-3.22.1.6:<br/>
+  Successfully uninstalled h2o-3.22.1.6<br/>
+h2o uninstall completed<br/>
+h2o install<br/>
 
 
-It uninstalls and then followed by install.
+It uninstalls and then followed by install.<br/>
 
 Ex :<br/>
 ubuntu@ip-10-100-1-237:/tmp/h2opython$ python3 h2oinstaller.py --cmd status<br/>
