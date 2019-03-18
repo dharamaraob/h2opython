@@ -17,17 +17,17 @@ Note: cmd will take the params
       status: shows the h2o status
 
 Ex:
-ubuntu@ip-10-100-1-237:/tmp/h2opython$ python h2oinstaller.py
+ubuntu@ip-10-100-1-237:/tmp/h2opython$ python3 h2oinstaller.py
 usage: h2oinstaller.py [-h] --cmd {install,uninstall,upgrade,status,run}
 h2oinstaller.py: error: argument --cmd is required
 
 Ex:
-ubuntu@ip-10-100-1-237:/tmp/h2opython$ python h2oinstaller.py --cmd status
+ubuntu@ip-10-100-1-237:/tmp/h2opython$ python3 h2oinstaller.py --cmd status
 h2o status
 ubuntu@ip-10-100-1-237:/tmp/h2opython$
 
 Ex:
-ubuntu@ip-10-100-1-237:/tmp/h2opython$ python h2oinstaller.py --cmd install
+ubuntu@ip-10-100-1-237:/tmp/h2opython$ python3 h2oinstaller.py --cmd install
 h2o install
 installing pre requisites
 :
@@ -53,13 +53,13 @@ Python version:             2.7.15 candidate
 --------------------------  ---------------------------------------------------
 H2o session is running. Press Ctrl + Z to run the H2o process in background.
 ^Z
-[1]+  Stopped                 python h2oinstaller.py --cmd install
+[1]+  Stopped                 python3 h2oinstaller.py --cmd install
 
 Note: H2o process is running in background. We need to kill it manually or it will be running till next boot.
 
 
 Ex :
-ubuntu@ip-10-100-1-237:/tmp/h2opython$ python h2oinstaller.py --cmd status
+ubuntu@ip-10-100-1-237:/tmp/h2opython$ python3 h2oinstaller.py --cmd status
 h2o status
 Name: h2o
 Version: 3.22.1.6
@@ -74,7 +74,7 @@ ubuntu@ip-10-100-1-237:/tmp/h2opython$
 
 
 Ex:
-ubuntu@ip-10-100-1-237:/tmp/h2opython$ python h2oinstaller.py --cmd upgrade
+ubuntu@ip-10-100-1-237:/tmp/h2opython$ python3 h2oinstaller.py --cmd upgrade
 h2o upgrade
 Uninstalling h2o-3.22.1.6:
   Successfully uninstalled h2o-3.22.1.6
