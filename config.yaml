@@ -1,0 +1,7 @@
+h2o:
+  ip: localhost
+  port: 54321
+  https: False
+  max_mem_size: 5g
+  min_mem_size: 1g
+  strict_version_check: False
